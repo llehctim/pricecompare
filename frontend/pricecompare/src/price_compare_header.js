@@ -6,7 +6,7 @@ class PriceCompareHeader extends Component {
   render() {
     return (
 
-      <Navbar inverse collapseOnSelect>
+      <Navbar collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="#brand">Pri&cent;e Compare</a>
@@ -27,6 +27,7 @@ class PriceCompareHeader extends Component {
             <NavItem eventKey={2} href="#">
               Edit Profile
             </NavItem>
+            <NavItem><hr /></NavItem>
             <NavItem eventKey={2} href="#">
               Log Out
             </NavItem>
